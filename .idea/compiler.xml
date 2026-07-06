@@ -10,14 +10,26 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../../language/repository/mrepository/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
+        <module name="file" />
+        <module name="framework" />
+        <module name="common" />
+        <module name="auth" />
+        <module name="monitor" />
         <module name="bootstrap" />
+        <module name="message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
       <module name="bootstrap" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="file" options="-parameters" />
+      <module name="framework" options="-parameters" />
+      <module name="message" options="-parameters" />
+      <module name="monitor" options="-parameters" />
       <module name="qtfycg" options="-parameters" />
     </option>
   </component>

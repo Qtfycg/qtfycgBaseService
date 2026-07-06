@@ -15,7 +15,20 @@
     <name>qtfycg</name>
 
     <modules>
+        <!--启动类-->
         <module>bootstrap</module>
+        <!--通用模块-->
+        <module>common</module>
+        <!--框架配置模块-->
+        <module>framework</module>
+        <!--认证模块-->
+        <module>auth</module>
+        <!--文件模块-->
+        <module>file</module>
+        <!--消息模块-->
+        <module>message</module>
+        <!--监控模块-->
+        <module>monitor</module>
     </modules>
 
     <properties>
