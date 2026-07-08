@@ -21,6 +21,11 @@
         <dependency>
             <groupId>com.qtfycg</groupId>
             <artifactId>common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
         </dependency>
     </dependencies>
 

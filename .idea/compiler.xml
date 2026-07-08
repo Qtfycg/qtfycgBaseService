@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../language/repository/mrepository/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$PROJECT_DIR$/../../../language/repository/mrepository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
         <module name="file" />
         <module name="framework" />
@@ -30,7 +30,7 @@
       <module name="framework" options="-parameters" />
       <module name="message" options="-parameters" />
       <module name="monitor" options="-parameters" />
-      <module name="qtfycg" options="-parameters" />
+      <module name="qtfycg" options="" />
     </option>
   </component>
 </project>
