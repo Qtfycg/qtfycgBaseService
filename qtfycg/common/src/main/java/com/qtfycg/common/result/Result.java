@@ -109,6 +109,7 @@ public class Result<T> implements Serializable {
 
     /**
      * 创建成功，HTTP 状态码为 201。
+     *
      */
     public static <T> Result<T> created(T data) {
         return new Result<>(true, GlobalErrorCode.CREATED, GlobalErrorCode.CREATED.getMessage(), data);
