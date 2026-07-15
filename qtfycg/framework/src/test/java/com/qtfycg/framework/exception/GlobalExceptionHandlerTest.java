@@ -1,3 +1,7 @@
+/*
+ * Copyright (c)
+ */
+
 package com.qtfycg.framework.exception;
 
 import com.qtfycg.common.enums.GlobalErrorCode;
