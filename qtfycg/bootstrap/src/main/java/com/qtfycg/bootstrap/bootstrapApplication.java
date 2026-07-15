@@ -1,3 +1,14 @@
+/*
+ * Copyright (c)
+ * 2026
+ * qtfycg
+ * All rights reserved
+ */
+
+/*
+ * Copyright (c)
+ */
+
 package com.qtfycg.bootstrap;
 
 import lombok.extern.slf4j.Slf4j;
