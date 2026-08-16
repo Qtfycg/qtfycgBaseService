@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -13,85 +11,12 @@
     <groupId>com.qtfycg</groupId>
     <artifactId>qtfycg</artifactId>
     <version>1.0.0</version>
-    <packaging>pom</packaging>
     <name>qtfycg</name>
-
-    <modules>
-        <!--启动类-->
-        <module>bootstrap</module>
-        <!--通用模块-->
-        <module>common</module>
-        <!--框架配置模块-->
-        <module>framework</module>
-        <!--认证模块-->
-        <module>auth</module>
-        <!--文件模块-->
-        <module>file</module>
-        <!--消息模块-->
-        <module>message</module>
-        <!--监控模块-->
-        <module>monitor</module>
-    </modules>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>21</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring.boot.version>4.1.0</spring.boot.version>
-        <lombok.version>1.18.36</lombok.version>
-        <project.version>1.0.0</project.version>
-        <mybatis-plus.version>3.5.17</mybatis-plus.version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <!-- Spring Boot 依赖版本管理 -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <!-- MyBatis-Plus -->
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-spring-boot4-starter</artifactId>
-                <version>${mybatis-plus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-jsqlparser</artifactId>
-                <version>${mybatis-plus.version}</version>
-            </dependency>
-            <!-- Lombok -->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <release>${java.version}</release>
-                        <annotationProcessorPaths>
-                            <path>
-                                <groupId>org.projectlombok</groupId>
-                                <artifactId>lombok</artifactId>
-                                <version>${lombok.version}</version>
-                            </path>
-                        </annotationProcessorPaths>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
 </project>
