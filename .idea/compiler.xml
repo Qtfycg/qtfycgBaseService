@@ -3,21 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for qtfycg" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../language/repository/mrepository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="file" />
-        <module name="framework" />
-        <module name="common" />
-        <module name="auth" />
-        <module name="monitor" />
-        <module name="bootstrap" />
-        <module name="message" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>
