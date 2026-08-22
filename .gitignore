@@ -4,7 +4,7 @@ target/
 **/target/
 
 # IntelliJ IDEA
-.idea/
+.idea
 *.iml
 
 # VS Code
