@@ -12,6 +12,7 @@
     <!--子模块-->
     <modules>
         <module>common</module>
+        <module>bootstrap</module>
     </modules>
     <packaging>pom</packaging>
 
