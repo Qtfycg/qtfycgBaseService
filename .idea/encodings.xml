@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/qtfycg/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/bootstrap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qtfycg/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
