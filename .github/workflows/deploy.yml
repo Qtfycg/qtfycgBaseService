@@ -21,22 +21,22 @@ jobs:
           java-version: 21
           cache: maven
 
-      - name: Build project
+      - name: Build bootstrap module
         working-directory: qtfycg
-        run: mvn clean package -DskipTests
+        run: mvn clean package -pl bootstrap -am -DskipTests
 
       - name: Prepare deploy artifact
         run: |
           mkdir -p deploy
 
-          JAR_FILE=$(find ./qtfycg -path "*/target/*.jar" \
+          JAR_FILE=$(find ./qtfycg/bootstrap/target -name "*.jar" \
             ! -name "*sources.jar" \
             ! -name "*javadoc.jar" \
             ! -name "original-*.jar" \
             | head -n 1)
 
           if [ -z "$JAR_FILE" ]; then
-            echo "No jar file found."
+            echo "No bootstrap jar file found."
             exit 1
           fi
 
