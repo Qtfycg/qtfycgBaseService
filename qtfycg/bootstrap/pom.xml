@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.qtfycg</groupId>
         <artifactId>qtfycg</artifactId>
@@ -10,19 +12,18 @@
     </parent>
 
     <artifactId>bootstrap</artifactId>
+    <packaging>jar</packaging>
 
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>bootstrap</name>
 
     <dependencies>
+        <!-- Web 启动依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <scope>compile</scope>
         </dependency>
+
+        <!-- 通用模块 -->
         <dependency>
             <groupId>com.qtfycg</groupId>
             <artifactId>common</artifactId>
@@ -31,11 +32,25 @@
     </dependencies>
 
     <build>
+        <finalName>qtfycg</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>com.qtfycg.QtfycgApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>
