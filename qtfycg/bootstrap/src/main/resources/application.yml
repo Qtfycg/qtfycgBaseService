@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: qtfycg
+
+  profiles:
+    active: dev
+
+server:
+  shutdown: graceful
+
+spring.lifecycle:
+  timeout-per-shutdown-phase: 30s
