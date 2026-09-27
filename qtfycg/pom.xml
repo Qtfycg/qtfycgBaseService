@@ -13,6 +13,7 @@
     <modules>
         <module>common</module>
         <module>bootstrap</module>
+        <module>user</module>
     </modules>
     <packaging>pom</packaging>
 
