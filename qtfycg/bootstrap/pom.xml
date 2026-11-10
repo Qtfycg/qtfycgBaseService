@@ -8,7 +8,7 @@
     <parent>
         <groupId>com.qtfycg</groupId>
         <artifactId>qtfycg</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0.100</version>
     </parent>
 
     <artifactId>bootstrap</artifactId>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.qtfycg</groupId>
             <artifactId>common</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
@@ -37,7 +37,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
                 <executions>
                     <execution>
                         <goals>

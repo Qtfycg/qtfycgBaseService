@@ -1,0 +1,9 @@
+qtfycg:
+  thread-pool:
+    log:
+      core-pool-size: 2
+      max-pool-size: 4
+      queue-capacity: 1000
+      keep-alive-seconds: 60
+      thread-name-prefix: qtfycg-log-
+      await-termination-seconds: 10
