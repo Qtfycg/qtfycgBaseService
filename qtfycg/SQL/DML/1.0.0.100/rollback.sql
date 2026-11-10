@@ -1,0 +1,3 @@
+-- Copyright (c) 2026 qtfycg All rights reserved
+-- 版本：1.0.0.100  回滚：删除本版本初始化的数据
+-- 说明：本版本无数据变更，无需数据回滚

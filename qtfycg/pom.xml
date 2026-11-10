@@ -6,7 +6,7 @@
     <!--基本信息-->
     <groupId>com.qtfycg</groupId>
     <artifactId>qtfycg</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.100</version>
     <name>qtfycg</name>
 
     <!--子模块-->
